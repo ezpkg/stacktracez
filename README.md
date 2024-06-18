@@ -15,7 +15,7 @@ Package stacktracez provides functions for getting stack trace for using in erro
 ## Installation
 
 ```sh
-go get -u ezpkg.io/stacktracez@v0.0.5
+go get -u ezpkg.io/stacktracez@v0.0.6
 ```
 
 ## Examples
@@ -36,6 +36,12 @@ fmt.Printf("%v", stack)
 // ezpkg.io/stacktracez/stacktracez_test.go:15 · TestStackTrace
 // testing/testing.go:1689 · tRunner
 ```
+
+## Similar Packages
+
+- [github.com/pkg/errors](https://github.com/pkg/errors)
+- [go.elastic.co/apm/v2/stacktrace](https://pkg.go.dev/go.elastic.co/apm/v2/stacktrace)
+- [github.com/palantir/stacktrace](github.com/palantir/stacktrace)
 
 ## About ezpkg.io
 
