@@ -3,5 +3,5 @@ module ezpkg.io/stacktracez
 go 1.21
 
 require (
-	ezpkg.io/fmtz v0.0.8
+	ezpkg.io/fmtz v0.0.9
 )
